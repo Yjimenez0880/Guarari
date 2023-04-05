@@ -1,0 +1,37 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Launch Edge",
+            "request": "launch",
+            "type": "msedge",
+            "url": "http://localhost:3000",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "name": "Launch Chrome",
+            "request": "launch",
+            "type": "chrome",
+            "url": "http://localhost:3000",
+            "webRoot": "${workspaceFolder}"
+        },
+
+
+        
+        {
+            "name": "Launch Edge",
+            "request": "launch",
+            "type": "msedge",
+            "url": "http://localhost:3000",
+            "webRoot": "${workspaceFolder}"
+        },
+        
+        {
+            "type": "node-terminal",
+            "name": "Run Backend",
+            "request": "launch",
+            "command": "npm start",
+            "cwd": "${workspaceFolder}\\backend"
+        },
+    ]
+}
